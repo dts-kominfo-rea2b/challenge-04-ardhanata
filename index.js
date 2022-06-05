@@ -22,10 +22,10 @@ const createDate = (dates, index) => {
     // IIFE
 
     // '1546387200-1580662800-1614841200-1617573600-1651802400' (dalam string)
-    console.log(createDate ? .(dates));
+    console.log(createDate?.(dates));
 
     // '1614841200' (dalam string)
-    console.log(createDate ? .(dates, 2));
+    console.log(createDate?.(dates, 2));
 })();
 
 module.exports = {
